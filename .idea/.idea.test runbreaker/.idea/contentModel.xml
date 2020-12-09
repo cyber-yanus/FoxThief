@@ -7,8 +7,6 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="AgentController.cs" t="Include" />
-        <e p="CapsuleCreator.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="BizulkaProduction" t="Include">
             <e p="BizulkaProduction" t="Include">
@@ -216,42 +214,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="AnimationStateController.cs" t="Include" />
-          <e p="Camera" t="Include">
-            <e p="CameraController.cs" t="Include" />
-          </e>
-          <e p="Chick" t="Include">
-            <e p="Chick.cs" t="Include" />
-            <e p="ChickAnimationController.cs" t="Include" />
-            <e p="ChickStates.cs" t="Include" />
-          </e>
-          <e p="DebugCheck.cs" t="Include" />
-          <e p="Farmer" t="Include">
-            <e p="FarmerTriggerController.cs" t="Include" />
-          </e>
-          <e p="Finish.cs" t="Include" />
-          <e p="Ground" t="Include">
-            <e p="Ground.cs" t="Include" />
-          </e>
-          <e p="Obstacle" t="Include">
-            <e p="CrashObstacle.cs" t="Include" />
-            <e p="ObstacleController.cs" t="Include" />
-          </e>
-          <e p="PLayer" t="Include">
-            <e p="Attac" t="Include">
-              <e p="AttacController.cs" t="Include" />
-            </e>
-            <e p="Canvas" t="Include">
-              <e p="CanvasController.cs" t="Include" />
-              <e p="LoadSceneButton.cs" t="Include" />
-            </e>
-            <e p="CollisionController.cs" t="Include" />
-            <e p="JumpController.cs" t="Include" />
-            <e p="Move" t="Include">
-              <e p="MoveController.cs" t="Include" />
-            </e>
-            <e p="PlayerController.cs" t="Include" />
-            <e p="PlayerState.cs" t="Include" />
+          <e p="Level" t="Include">
+            <e p="MoveLevel.cs" t="Include" />
           </e>
         </e>
       </e>
